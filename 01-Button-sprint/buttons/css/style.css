@@ -18,3 +18,28 @@ a {
 .text-center {
   text-align: center;
 }
+
+.btn-medium {
+	color: rgb(200, 200, 200);
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: 30px;
+	padding: 13px 23px;
+}
+
+.btn-medium:hover {
+	color: rgb(150, 150, 150);
+	border: 1px solid rgb(150, 150, 150);
+}
+
+.btn-treehouse {
+	color: white;
+	font-weight: bold;
+	background-color: green;
+	border-radius: 4%;
+	padding: 13px 23px;
+}
+
+.btn-treehouse:hover {
+	background-color: black;
+	transition: background 0.3s ease;
+}
